@@ -1,0 +1,146 @@
+-- This is the configuration file for the 'cabal' command line tool.
+--
+-- The available configuration options are listed below.
+-- Some of them have default values listed.
+--
+-- Lines (like this one) beginning with '--' are comments.
+-- Be careful with spaces and indentation because they are
+-- used to indicate layout for nested sections.
+--
+-- This config file was generated using the following versions
+-- of Cabal and cabal-install:
+-- Cabal library version: 2.4.0.1
+-- cabal-install version: 2.4.0.0
+
+
+repository hackage.haskell.org
+  url: http://hackage.haskell.org/
+  -- secure: True
+  -- root-keys:
+  -- key-threshold: 3
+
+benchmarks: False
+coverage: False
+executable-dynamic: False
+executable-stripping: False
+library-for-ghci: False
+library-stripping: False
+profiling: False
+relocatable: False
+shared: False
+split-objs: False
+split-sections: False
+tests: False
+with-compiler: ahc
+with-hc-pkg: ahc-pkg
+-- default-user-config:
+-- require-sandbox: False
+-- ignore-sandbox: False
+-- ignore-expiry: False
+-- http-transport:
+-- nix: False
+-- local-repo:
+-- logs-dir: /home/sam/.cabal/logs
+-- store-dir:
+-- verbose: 1
+-- compiler: ghc
+-- cabal-file:
+-- with-compiler:
+-- with-hc-pkg:
+-- program-prefix: 
+-- program-suffix: 
+-- library-vanilla: True
+-- library-profiling:
+-- shared:
+-- static:
+-- executable-dynamic: False
+-- profiling:
+-- executable-profiling:
+-- profiling-detail:
+-- library-profiling-detail:
+-- optimization: True
+-- debug-info: False
+-- library-for-ghci:
+-- split-sections: False
+-- split-objs: False
+-- executable-stripping: True
+-- library-stripping: True
+-- configure-option:
+-- user-install: True
+-- package-db:
+-- flags:
+-- extra-include-dirs:
+-- deterministic:
+-- cid:
+-- extra-lib-dirs:
+-- extra-framework-dirs:
+-- instantiate-with:
+-- tests: False
+-- coverage: False
+-- library-coverage:
+-- exact-configuration: False
+-- benchmarks: False
+-- relocatable: False
+-- response-files:
+-- cabal-lib-version:
+-- constraint:
+-- preference:
+-- solver: modular
+-- allow-older: False
+-- allow-newer: False
+-- documentation: False
+-- doc-index-file: $datadir/doc/$arch-$os-$compiler/index.html
+-- target-package-db:
+-- max-backjumps: 2000
+-- reorder-goals: False
+-- count-conflicts: True
+-- independent-goals: False
+-- shadow-installed-packages: False
+-- strong-flags: False
+-- allow-boot-library-installs: False
+-- reinstall: False
+-- avoid-reinstalls: False
+-- force-reinstalls: False
+-- upgrade-dependencies: False
+-- index-state:
+-- root-cmd:
+-- build-log:
+-- report-planning-failure: False
+-- per-component: True
+-- one-shot: False
+-- run-tests:
+-- keep-going: False
+-- offline: False
+-- project-file:
+-- username:
+-- password:
+-- password-command:
+-- builddir:
+
+program-locations
+  -- alex-location:
+  -- ar-location:
+  -- c2hs-location:
+  -- cpphs-location:
+  -- doctest-location:
+  -- gcc-location:
+  -- ghc-location:
+  -- ghc-pkg-location:
+  -- ghcjs-location:
+  -- ghcjs-pkg-location:
+  -- greencard-location:
+  -- haddock-location:
+  -- happy-location:
+  -- haskell-suite-location:
+  -- haskell-suite-pkg-location:
+  -- hmake-location:
+  -- hpc-location:
+  -- hsc2hs-location:
+  -- hscolour-location:
+  -- jhc-location:
+  -- ld-location:
+  -- pkg-config-location:
+  -- runghc-location:
+  -- strip-location:
+  -- tar-location:
+  -- uhc-location:

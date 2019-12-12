@@ -2,3 +2,5 @@ build
 node_modules
 src/*.hi
 src/*.o
+works-src/*.hi
+works-src/*.o

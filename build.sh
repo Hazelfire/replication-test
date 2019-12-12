@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+rm -r build
 mkdir -p  build
 
 ahc-link --input-hs src/todomvc.hs --output-directory build --browser
